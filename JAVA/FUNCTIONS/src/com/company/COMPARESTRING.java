@@ -15,13 +15,12 @@ public class COMPARESTRING extends Function {
         int t=0;
         if(primera.compareTo(segunda)==0){
             t=0;
-            result();
         }
         else if(primera.compareTo(segunda)<0){
             t=-1;
         }else if(primera.compareTo(segunda)>0){
             t=1;
         }
-        result(Integer.toString(t));
+        result(t);
     }
 }

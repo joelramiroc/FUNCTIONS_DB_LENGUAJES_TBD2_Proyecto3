@@ -25,7 +25,8 @@ public class Main {
         Statement statement = connection.createStatement();
         statement.setQueryTimeout(30);  // set timeout to 30 sec.
         try {
-            ResultSet rs = statement.executeQuery("select TRIM('&joel&','&') as b");
+            //ResultSet rs = statement.executeQuery("select PMT(0.08,10,10000) as b");
+            ResultSet rs = statement.executeQuery("select РING('google.com') as b");
             while(rs.next())
             {
                 System.out.println("b = " + rs.getString("b"));
