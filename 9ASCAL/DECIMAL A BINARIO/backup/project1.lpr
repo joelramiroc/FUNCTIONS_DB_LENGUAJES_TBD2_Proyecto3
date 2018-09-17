@@ -4,8 +4,9 @@ library DEC2BINDLL;
 uses
   Classes, sysutils, Dialogs,crt,strutils;
 
-var r,n,n2: integer;
+var r,n2,i: integer;
 var st:String = '';
+var stn:String = '';
 tm :String= '';
 function DEC2BIN(var n3 :integer ):integer;cdecl;export;
 
@@ -17,10 +18,13 @@ begin
       tm := IntToStr(n2);
       st := st + tm;
     end;
-  r:= strtoint(st);
+  for i:=0 to (Length(st)-1)do
+  begin
+    stn += Copy(st,Length(st)-i,1);
+  end;
+  r:= StrToInt(stn);
   Result:=r;
   end;
-end;
 
 Exports
   DEC2BIN;

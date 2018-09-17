@@ -10,8 +10,8 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="DEC2BINDLL"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="3"/>
-        <CursorPos X="11" Y="9"/>
+        <TopLine Value="14"/>
+        <CursorPos X="30" Y="21"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -23,7 +23,7 @@
         <UsageCount Value="10"/>
       </Unit1>
     </Units>
-    <JumpHistory Count="21" HistoryIndex="20">
+    <JumpHistory Count="25" HistoryIndex="24">
       <Position1>
         <Filename Value="project1.lpr"/>
         <Caret Line="13" Column="29"/>
@@ -107,6 +107,22 @@
         <Filename Value="project1.lpr"/>
         <Caret Line="11" Column="5" TopLine="3"/>
       </Position21>
+      <Position22>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="15" Column="23" TopLine="3"/>
+      </Position22>
+      <Position23>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="26" Column="23" TopLine="17"/>
+      </Position23>
+      <Position24>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="7" Column="13" TopLine="4"/>
+      </Position24>
+      <Position25>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="21" Column="30" TopLine="14"/>
+      </Position25>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

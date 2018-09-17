@@ -2,16 +2,21 @@ library project1;
 {$mode objfpc}{$H+}
 
 uses
-  Classes, sysutils, Dialogs;
+  Classes, sysutils, Dialogs,crt,math;
 
-function BIN2DEC(const Bin: string):Integer;cdecl;export;
-var
-i: Integer;
+var bin:string;
+var i,longitud,bit:byte;
+var acumulador:Double=0;
+
+function BIN2DEC(var value : integer):Integer;cdecl;export;
 begin
-Result:= 0;
-for i:= 1 to Length(Bin) do
-Result:= Result*2 + Ord(Bin[i]) - Ord('0');
-        Result:= inttobin(5);
+  bin:= IntToStr(value);
+  longitud := Length(bin);
+  for i:=longitud downto 1 do begin
+    Val(bin[i],bit);
+    acumulador += bit*power(2,(longitud-i));
+  end;
+  Result:= StrToInt(FloatToStr(acumulador));
 end;
 
 Exports
