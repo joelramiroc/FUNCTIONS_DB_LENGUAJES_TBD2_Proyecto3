@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1286836893"/>
+  <Params Value=" -MObjFPC -Scghi -WR -O1 -g -gl -l -vewnhibq &quot;-FiC:\Users\Joel Caballero\Desktop\FUNCTIONS_DB_LENGUAJES_TBD2_Proyecto3\9ASCAL\TRIM\lib\x86_64-win64&quot; &quot;-FuC:\Users\Joel Caballero\Desktop\FUNCTIONS_DB_LENGUAJES_TBD2_Proyecto3\9ASCAL\TRIM\&quot; &quot;-FUC:\Users\Joel Caballero\Desktop\FUNCTIONS_DB_LENGUAJES_TBD2_Proyecto3\9ASCAL\TRIM\lib\x86_64-win64\&quot; project1.lpr"/>
+</CONFIG>
